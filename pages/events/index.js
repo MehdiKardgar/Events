@@ -1,3 +1,4 @@
+// index.js
 // a route for all events
 
 import { Fragment } from "react";
