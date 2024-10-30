@@ -24,13 +24,13 @@ export default function AllEventsPage(props) {
 
   return (
     <Fragment>
-      <Head>
-        <title>NextJS Events</title>
+      {/* <Head>
+        <title>All Events</title>
         <meta
           name="description"
           content="Find a lot of great events that allow you to evolve..."
         />
-      </Head>
+      </Head> */}
 
       <EventsSearch onSearch={findEventsHandler} />
       <EventList items={events} />
